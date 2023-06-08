@@ -52,6 +52,21 @@ a {
   max-width: 300px;
 }
 
+.bateria .texto-bateria {
+  max-width: 300px;
+}
+.bateria .texto-bateria .span-texto-bateria {
+  color: rgb(101, 207, 101);
+  font-size: 22px;
+}
+.bateria .texto-cargador {
+  max-width: 400px;
+}
+.bateria .texto-cargador .span-texto-bateria {
+  color: rgb(101, 207, 101);
+  font-size: 22px;
+}
+
 .comprar-iphones {
   background-color: rgb(243, 243, 243);
   height: 100vh;
@@ -224,6 +239,9 @@ a {
   .donde-comprar-iphones .ctn-texto .ctn-a {
     width: 90%;
     margin: auto;
+  }
+  .bateria .img-cargador-magsafe {
+    max-width: 200px;
   }
 }
 @media screen and (max-width: 777px) {

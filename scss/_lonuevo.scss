@@ -23,3 +23,24 @@
     width: 100%;
     max-width: 300px;
 }
+
+.bateria{
+
+    .texto-bateria{
+        max-width: 300px;
+    
+        .span-texto-bateria{
+            color: rgb(101, 207, 101);
+            font-size: 22px;
+        }
+    }
+
+    .texto-cargador{
+        max-width: 400px;
+
+        .span-texto-bateria{
+            color: rgb(101, 207, 101);
+            font-size: 22px;
+        }
+    }
+}
