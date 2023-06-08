@@ -1,0 +1,40 @@
+.donde-comprar-iphones{
+    background-image: url(../assets/img/hero-donde-comprar.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+    .ctn-texto{
+        text-align: center;
+        padding-top: 100px;
+        color: $color_negro;
+
+        h2{
+            font-size: 45px;
+        }
+
+        h5{
+            color: rgb(236, 74, 25);
+        }
+        
+        p{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        .ctn-a{
+            width: 50%;
+            margin: auto;
+        }
+        
+        a{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+    }
+}
+

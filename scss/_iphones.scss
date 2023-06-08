@@ -1,0 +1,55 @@
+.comprar-iphones{
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.comprar-iphone-ctn-flex{
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+
+    .ctn-texto{
+        display: flex;
+        justify-content: space-between;
+        color: $color_negro;
+        padding: 30px 0;
+
+        p{
+            font-weight: 500;
+        }
+    }
+
+    .ctn-iphones{
+        display: flex;
+        justify-content: space-between;
+
+        .iphone{
+            text-align: center;
+
+            h5{
+                margin-top: 10px;
+            }
+
+            p{
+                margin-bottom: 5px;
+                color: rgb(236, 74, 25);
+                font-weight: 500;
+            }
+
+            .img-iphone-12{
+                max-width: 161px;
+                height: 252px;
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .ctn-link-consultar{
+        margin-top: 100px;
+    }
+    
+}

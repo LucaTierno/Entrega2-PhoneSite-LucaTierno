@@ -1,0 +1,101 @@
+@media screen and (max-width: 1350px){
+    
+    .nosotros-mar-del-plata{
+
+        .container-caja-nosotros{
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .container-caja-nosotros__texto{
+
+            p{
+                width: 90%;
+            }
+
+            h2{
+                font-size: 30px;
+            }
+
+            a{
+                font-size: 30px;
+            }
+        }
+
+        .container-caja-nosotros__img{
+            min-width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .footer-center{
+        text-align: center;
+    }
+
+    .footer-center__caja{
+        margin: 25px 0;
+    }
+
+    .footer-icono-pd{
+        padding: 7px 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .donde-comprar-iphones{
+        background-position: 62%;
+        
+        .ctn-texto{
+            
+            h2{
+                font-size: 33px;
+                width: 90%;
+                margin: auto;
+                padding-bottom: 15px;
+            }
+
+            p{
+                width: 90%;
+                margin: auto;
+                padding-bottom: 15px;
+            }
+
+            .ctn-a{
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 777px){
+    .comprar-iphones{
+        height: 100%;
+        padding-bottom: 40px;
+    }
+
+    .comprar-iphone-ctn-flex{
+        width: 90%;
+
+        .ctn-texto{
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .ctn-iphones{
+            flex-direction: column;
+
+            .iphone{
+                margin-bottom: 30px;
+            }
+            
+        }
+
+        .ctn-link-consultar{
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+}

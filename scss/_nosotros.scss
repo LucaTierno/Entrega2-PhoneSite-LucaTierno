@@ -1,0 +1,51 @@
+.nosotros-mar-del-plata{
+    background-color: rgb(243, 243, 243);
+    padding: 100px 0;
+
+    .container-caja-nosotros{
+        display: flex;
+        text-align: center;
+        width: 70%;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        margin: auto;
+        box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+        border-radius: 20px;
+    }
+
+    .container-caja-nosotros__texto{
+        align-self: center;
+
+        h2{
+            font-size: 40px;
+        }
+
+        p{
+            width: 70%;
+            margin: auto;
+            font-weight: 500;
+            padding: 20px 0;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        a{
+            font-size: 40px;
+            color: #eb25e1
+        }
+    }
+
+    .container-caja-nosotros__img{
+        margin: auto;
+        box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+        border-radius: 20px;
+        width: 100%;
+        max-width: 500px;
+        min-width: 400px;
+
+        img{
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}

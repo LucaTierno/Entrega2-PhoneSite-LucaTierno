@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero h1 {
+  color: rgb(209, 209, 209);
+}
+.hero p {
+  color: rgb(209, 209, 209);
+}
+
+.hero-img {
+  max-width: 820px;
+  width: 100%;
+}
+
+.equipos-img {
+  max-width: 1300px;
+  width: 100%;
+}
+
+.encabezado .ctn-texto-iphone-14-pro {
+  color: rgb(209, 209, 209);
+}
+
+.texto-color-gris {
+  color: rgb(209, 209, 209);
+}
+
+.iphone14-innovaciones {
+  width: 100%;
+  max-width: 700px;
+}
+
+.img-deteccion-choques {
+  width: 100%;
+  max-width: 240px;
+}
+
+.img-chip-bionic {
+  width: 100%;
+  max-width: 300px;
+}
+
+.comprar-iphones {
+  background-color: rgb(243, 243, 243);
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.comprar-iphone-ctn-flex {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+}
+.comprar-iphone-ctn-flex .ctn-texto {
+  display: flex;
+  justify-content: space-between;
+  color: #1d1d1f;
+  padding: 30px 0;
+}
+.comprar-iphone-ctn-flex .ctn-texto p {
+  font-weight: 500;
+}
+.comprar-iphone-ctn-flex .ctn-iphones {
+  display: flex;
+  justify-content: space-between;
+}
+.comprar-iphone-ctn-flex .ctn-iphones .iphone {
+  text-align: center;
+}
+.comprar-iphone-ctn-flex .ctn-iphones .iphone h5 {
+  margin-top: 10px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones .iphone p {
+  margin-bottom: 5px;
+  color: rgb(236, 74, 25);
+  font-weight: 500;
+}
+.comprar-iphone-ctn-flex .ctn-iphones .iphone .img-iphone-12 {
+  max-width: 161px;
+  height: 252px;
+  padding-top: 30px;
+}
+.comprar-iphone-ctn-flex .ctn-link-consultar {
+  margin-top: 100px;
+}
+
+.donde-comprar-iphones {
+  background-image: url(../assets/img/hero-donde-comprar.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.donde-comprar-iphones .ctn-texto {
+  text-align: center;
+  padding-top: 100px;
+  color: #1d1d1f;
+}
+.donde-comprar-iphones .ctn-texto h2 {
+  font-size: 45px;
+}
+.donde-comprar-iphones .ctn-texto h5 {
+  color: rgb(236, 74, 25);
+}
+.donde-comprar-iphones .ctn-texto p {
+  font-weight: 500;
+  font-size: 18px;
+}
+.donde-comprar-iphones .ctn-texto .ctn-a {
+  width: 50%;
+  margin: auto;
+}
+.donde-comprar-iphones .ctn-texto a {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nosotros-mar-del-plata {
+  background-color: rgb(243, 243, 243);
+  padding: 100px 0;
+}
+.nosotros-mar-del-plata .container-caja-nosotros {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin: auto;
+  box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+  border-radius: 20px;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__texto {
+  align-self: center;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__texto h2 {
+  font-size: 40px;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__texto p {
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 17px;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__texto a {
+  font-size: 40px;
+  color: #eb25e1;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__img {
+  margin: auto;
+  box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 400px;
+}
+.nosotros-mar-del-plata .container-caja-nosotros__img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .nosotros-mar-del-plata .container-caja-nosotros {
+    flex-direction: column;
+    width: 90%;
+  }
+  .nosotros-mar-del-plata .container-caja-nosotros__texto p {
+    width: 90%;
+  }
+  .nosotros-mar-del-plata .container-caja-nosotros__texto h2 {
+    font-size: 30px;
+  }
+  .nosotros-mar-del-plata .container-caja-nosotros__texto a {
+    font-size: 30px;
+  }
+  .nosotros-mar-del-plata .container-caja-nosotros__img {
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer-center {
+    text-align: center;
+  }
+  .footer-center__caja {
+    margin: 25px 0;
+  }
+  .footer-icono-pd {
+    padding: 7px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .donde-comprar-iphones {
+    background-position: 62%;
+  }
+  .donde-comprar-iphones .ctn-texto h2 {
+    font-size: 33px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .donde-comprar-iphones .ctn-texto p {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .donde-comprar-iphones .ctn-texto .ctn-a {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 777px) {
+  .comprar-iphones {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .comprar-iphone-ctn-flex {
+    width: 90%;
+  }
+  .comprar-iphone-ctn-flex .ctn-texto {
+    flex-direction: column;
+    text-align: center;
+  }
+  .comprar-iphone-ctn-flex .ctn-iphones {
+    flex-direction: column;
+  }
+  .comprar-iphone-ctn-flex .ctn-iphones .iphone {
+    margin-bottom: 30px;
+  }
+  .comprar-iphone-ctn-flex .ctn-link-consultar {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
