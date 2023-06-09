@@ -14,14 +14,41 @@
     max-width: 700px;
 }
 
-.img-deteccion-choques{
-    width: 100%;
-    max-width: 240px;
+#dynamic-island{
+
+    .span-texto-dynamic-island{
+        font-size: $tamanio_texto_span;
+        color: rgb(177, 116, 226);
+    }
 }
 
-.img-chip-bionic{
-    width: 100%;
-    max-width: 300px;
+
+.deteccion{
+
+    .img-deteccion-choques{
+        width: 100%;
+        max-width: 240px;
+    }
+
+    .span-texto-deteccion{
+        color: rgb(248, 77, 47);
+        font-size: $tamanio_texto_span;
+    }
+}
+
+
+.chip-bionic{
+
+    .img-chip-bionic{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .span-texto-chip-bionic{
+        font-size: $tamanio_texto_span;
+        color: rgb(177, 116, 226);
+    }
+
 }
 
 .bateria{
@@ -31,7 +58,7 @@
     
         .span-texto-bateria{
             color: rgb(126, 226, 126);
-            font-size: 22px;
+            font-size: $tamanio_texto_span;
         }
     }
 
@@ -40,7 +67,7 @@
 
         .span-texto-bateria{
             color: rgb(101, 207, 101);
-            font-size: 22px;
+            font-size: $tamanio_texto_span;
         }
     }
 }

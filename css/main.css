@@ -42,14 +42,27 @@ a {
   max-width: 700px;
 }
 
-.img-deteccion-choques {
+#dynamic-island .span-texto-dynamic-island {
+  font-size: 22px;
+  color: rgb(177, 116, 226);
+}
+
+.deteccion .img-deteccion-choques {
   width: 100%;
   max-width: 240px;
 }
+.deteccion .span-texto-deteccion {
+  color: rgb(248, 77, 47);
+  font-size: 22px;
+}
 
-.img-chip-bionic {
+.chip-bionic .img-chip-bionic {
   width: 100%;
   max-width: 300px;
+}
+.chip-bionic .span-texto-chip-bionic {
+  font-size: 22px;
+  color: rgb(177, 116, 226);
 }
 
 .bateria .texto-bateria {
@@ -241,7 +254,7 @@ a {
     margin: auto;
   }
   .bateria .img-cargador-magsafe {
-    max-width: 200px;
+    max-width: 170px;
   }
 }
 @media screen and (max-width: 777px) {
