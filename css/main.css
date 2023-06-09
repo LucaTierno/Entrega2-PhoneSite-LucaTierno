@@ -258,6 +258,9 @@ a {
   }
 }
 @media screen and (max-width: 777px) {
+  .deteccion .img-deteccion-choques {
+    max-width: 200px;
+  }
   .chip-bionic .img-chip-bionic {
     max-width: 230px;
   }
