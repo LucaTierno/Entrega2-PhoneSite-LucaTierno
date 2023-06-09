@@ -1,6 +1,5 @@
 .comprar-iphones{
     background-color: rgb(243, 243, 243);
-    height: 100vh;
     padding-top: 80px;
 }
 
@@ -46,6 +45,30 @@
                 padding-top: 30px;
             }
         }
+
+        &_img-iphone-grande{
+            width: 200px;
+            height: 260px;
+        }
+
+        &_img-iphone-mediano{
+            width: 180px;
+            height: 240px;
+        }
+
+        &_img-iphone-mediano_padding{
+            margin-top: 20px;
+        }
+
+        &_img-iphone-chico{
+            width: 160px;
+            height: 220px;
+        }
+
+        &_img-iphone-chico_padding{
+            margin-top: 40px;
+        }
+
     }
 
     .ctn-link-consultar{

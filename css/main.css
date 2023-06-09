@@ -82,7 +82,6 @@ a {
 
 .comprar-iphones {
   background-color: rgb(243, 243, 243);
-  height: 100vh;
   padding-top: 80px;
 }
 
@@ -122,6 +121,24 @@ a {
   max-width: 161px;
   height: 252px;
   padding-top: 30px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones_img-iphone-grande {
+  width: 200px;
+  height: 260px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones_img-iphone-mediano {
+  width: 180px;
+  height: 240px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones_img-iphone-mediano_padding {
+  margin-top: 20px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones_img-iphone-chico {
+  width: 160px;
+  height: 220px;
+}
+.comprar-iphone-ctn-flex .ctn-iphones_img-iphone-chico_padding {
+  margin-top: 40px;
 }
 .comprar-iphone-ctn-flex .ctn-link-consultar {
   margin-top: 100px;
