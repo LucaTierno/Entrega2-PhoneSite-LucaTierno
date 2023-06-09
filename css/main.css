@@ -56,7 +56,7 @@ a {
   max-width: 300px;
 }
 .bateria .texto-bateria .span-texto-bateria {
-  color: rgb(101, 207, 101);
+  color: rgb(126, 226, 126);
   font-size: 22px;
 }
 .bateria .texto-cargador {
@@ -245,6 +245,9 @@ a {
   }
 }
 @media screen and (max-width: 777px) {
+  .chip-bionic .img-chip-bionic {
+    max-width: 230px;
+  }
   .comprar-iphones {
     height: 100%;
     padding-bottom: 40px;
