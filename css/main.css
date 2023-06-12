@@ -33,7 +33,7 @@ a {
   padding: 40px 0;
 }
 .airpods__img-bg {
-  background-image: url(/repositorio/assets/img/airpods-max-black.jpg);
+  background-image: url(../assets/img/airpods-max-black.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -287,6 +287,9 @@ a {
   }
 }
 @media screen and (max-width: 991px) {
+  .airpods {
+    padding: 0;
+  }
   .airpods__img-bg {
     height: 600px;
   }
