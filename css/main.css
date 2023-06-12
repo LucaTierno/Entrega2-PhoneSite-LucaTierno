@@ -56,7 +56,7 @@ a {
 .airpods__img-bg__texto-2 .span-texto-airpods {
   color: rgb(209, 209, 209);
 }
-.airpods__img-bg__texto-2 .aripods-max {
+.airpods__img-bg__texto-2 .airpods-max {
   width: 250px;
   margin: auto;
   margin-top: 10px;
@@ -293,7 +293,7 @@ a {
   .airpods__img-bg {
     height: 600px;
   }
-  .airpods .aripods-max {
+  .airpods .airpods-max {
     margin-top: 25px;
   }
   .airpods__parrafo {
