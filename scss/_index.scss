@@ -18,3 +18,53 @@
     max-width: 1300px;
     width: 100%;
 }
+
+.airpods{
+
+    padding: 40px 0;
+
+    &__img-bg{
+        background-image: url(/repositorio/assets/img/airpods-max-black.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 800px;
+
+        &__texto{
+            color: $color_gris;
+        }
+
+        &__texto-2{
+            color: rgb(151, 151, 151);
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+
+            .span-texto-airpods{
+                color: $color_gris;
+            }
+
+            .aripods-max{
+                width: 250px;
+                margin: auto;
+                margin-top: 10px;
+                animation: float 3s linear infinite;
+
+                @keyframes float{
+                    0%, 100%{
+                        transform: translateY(0rem);
+                    }
+                    50%{
+                        transform: translateY(-1rem);
+                    }
+                } 
+            }
+        }
+    }
+}
+

@@ -30,6 +30,23 @@
 
 @media screen and (max-width: 991px){
 
+    .airpods{
+
+        &__img-bg{
+            height: 600px;
+        }
+
+        .aripods-max{
+                margin-top: 25px;
+        }
+
+        &__parrafo{
+            width: 75%;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+
     .footer-center{
         text-align: center;
     }
