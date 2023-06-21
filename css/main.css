@@ -204,8 +204,8 @@ a {
   padding-top: 100px;
   color: #1d1d1f;
 }
-.donde-comprar-iphones .ctn-texto h2 {
-  font-size: 45px;
+.donde-comprar-iphones .ctn-texto h1 {
+  padding: 0 50px;
 }
 .donde-comprar-iphones .ctn-texto h5 {
   color: rgb(236, 74, 25);
@@ -239,9 +239,6 @@ a {
 }
 .nosotros-mar-del-plata .container-caja-nosotros__texto {
   align-self: center;
-}
-.nosotros-mar-del-plata .container-caja-nosotros__texto h2 {
-  font-size: 40px;
 }
 .nosotros-mar-del-plata .container-caja-nosotros__texto p {
   width: 70%;
